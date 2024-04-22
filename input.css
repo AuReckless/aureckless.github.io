@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    @apply m-0 p-0 box-border scroll-smooth selection:bg-orange-500;
+}
+@font-face {
+    font-family: 'darksouls';
+    src: url(/fonts/Dark-Souls-Font/OptimusPrinceps.ttf);
+}
+@font-face {
+    font-family: 'darksoulsB';
+    src: url(/fonts/Dark-Souls-Font/OptimusPrincepsSemiBold.ttf);
+}
+@font-face {
+    font-family: 'blackchancery';
+    src: url(/fonts/blackchancery/BLKCHCRY.TTF);
+}

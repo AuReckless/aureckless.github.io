@@ -558,9 +558,9 @@ video {
   width: 100%;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 200px) {
   .container {
-    max-width: 375px;
+    max-width: 200px;
   }
 }
 
@@ -810,10 +810,6 @@ video {
   height: 4rem;
 }
 
-.h-auto {
-  height: auto;
-}
-
 .w-\[this-is\\\\\] {
   width: this-is\\;
 }
@@ -828,22 +824,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.max-w-\[\] {
-  max-width: ;
-}
-
-.max-w-\[1080\] {
-  max-width: 1080;
-}
-
-.max-w-\[1080px\] {
-  max-width: 1080px;
-}
-
-.max-w-full {
-  max-width: 100%;
 }
 
 .flex-shrink {
@@ -1974,6 +1954,11 @@ video {
   padding-right: 1rem;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -1984,14 +1969,24 @@ video {
   padding-bottom: 12rem;
 }
 
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .py-7 {
   padding-top: 1.75rem;
   padding-bottom: 1.75rem;
 }
 
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .text-left {
@@ -2068,6 +2063,16 @@ video {
 .text-7xl {
   font-size: 4.5rem;
   line-height: 1;
+}
+
+.text-9xl {
+  font-size: 8rem;
+  line-height: 1;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-black {
@@ -2631,7 +2636,7 @@ video {
   text-align: center;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 200px) {
   .ssmall\:h-20 {
     height: 5rem;
   }
@@ -2651,8 +2656,8 @@ video {
     padding-right: 0.5rem;
   }
 
-  .ssmall\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
+  .ssmall\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 }

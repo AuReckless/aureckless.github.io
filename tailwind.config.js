@@ -5,6 +5,10 @@ module.exports = {
     './index.html'
   ],
   theme: {
+    screens: {
+      'ssmall': '375px'
+    },
+
     fontFamily: {
       
     },

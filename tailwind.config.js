@@ -6,7 +6,7 @@ module.exports = {
   ],
   theme: {
     screens: {
-      'ssmall': '375px'
+      'ssmall': '200px'
     },
 
     fontFamily: {

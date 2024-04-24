@@ -810,6 +810,10 @@ video {
   height: 4rem;
 }
 
+.h-auto {
+  height: auto;
+}
+
 .w-\[this-is\\\\\] {
   width: this-is\\;
 }
@@ -824,6 +828,22 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.max-w-\[\] {
+  max-width: ;
+}
+
+.max-w-\[1080\] {
+  max-width: 1080;
+}
+
+.max-w-\[1080px\] {
+  max-width: 1080px;
+}
+
+.max-w-full {
+  max-width: 100%;
 }
 
 .flex-shrink {

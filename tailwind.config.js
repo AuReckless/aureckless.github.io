@@ -5,14 +5,14 @@ module.exports = {
     './index.html'
   ],
   theme: {
-    screens: {
-      'ssmall': '200px'
-    },
-
     fontFamily: {
       
     },
-    extend: {},
+    extend: {
+      boxShadow: {
+        neon: "0 0 5px theme('bg-purple-700'),"
+      },
+    },
   },
   plugins: [],
 }
